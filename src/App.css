@@ -7,6 +7,22 @@
   pointer-events: none;
 }
 
+.button {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.footer {
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  /* Height of the footer*/
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -28,6 +44,9 @@
   color: #61dafb;
 }
 
+.font-link {
+  font-family: "Roboto Mono", monospace;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
