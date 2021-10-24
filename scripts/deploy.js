@@ -2,7 +2,7 @@ const hre = require("hardhat");
 const main = async () => {
   const waveContractFactory = await hre.ethers.getContractFactory("WavePortal");
   const waveContract = await waveContractFactory.deploy({
-    value: hre.ethers.utils.parseEther("0.001"),
+    value: hre.ethers.utils.parseEther("4.1"),
   });
 
   await waveContract.deployed();
