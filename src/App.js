@@ -143,8 +143,7 @@ function App() {
     checkIfWalletIsConnected();
     checkWaveCount();
     getAllWaves();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [contractABI, totalWaves]);
   return (
     <>
       <div className="App font-link">
