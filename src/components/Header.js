@@ -32,7 +32,7 @@ export const Header = ({ waves, message, setMessage, waveExecute }) => {
         </div>
         {waves.map((wave, index) => {
           return (
-            <Center>
+            <Center key={index}>
               <WavesList wave={wave} index={index} />{" "}
             </Center>
           );
