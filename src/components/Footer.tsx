@@ -14,10 +14,10 @@ export const Footer = (props: ButtonGroupProps) => (
   >
     <Box mx="auto" maxW="7xl">
       <Stack>
-      <Text fontSize="sm">Made by SushiAlii 🍣</Text>
+        <Text fontSize="sm">Made by SushiAlii 🍣</Text>
         <Center>
           <Stack align="center">
-            <ButtonGroup variant="ghost" color="gray.600" {...props}>
+            <ButtonGroup variant="ghost" color="red.300" {...props}>
               <IconButton
                 as="a"
                 href="https://www.linkedin.com/in/ali-laut-224496205/"
